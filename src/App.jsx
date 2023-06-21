@@ -1,11 +1,9 @@
-import CheckList from './components/CheckList';
-import Patient from './components/Patient';
+import Patients from './components/Patients';
 
 export default function App() {
   return (
     <>
-      <Patient />
-      <CheckList />
+      <Patients />
     </>
   );
 }
